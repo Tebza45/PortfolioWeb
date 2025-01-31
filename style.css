@@ -223,8 +223,13 @@ ul li:hover .dropdown-content {
         height: auto;
     }
 
+    .icons {
+        text-align: center;
+        margin-top: 20px;
+    }
+
     .icons a {
         display: inline-block;
-        margin: 0 5px;
+        margin: 0 20px;
     }
 }
