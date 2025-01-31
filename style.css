@@ -8,7 +8,7 @@
     background: url(pics/grey-texture-background-3tbude3nyrxyh2be.webp);
     background-position: center;
     background-size: cover;
-    min-height: 100vh; 
+    min-height: 100vh; /* Change height to min-height */
     position: relative;
     font-family: sans-serif;
 }
@@ -156,7 +156,7 @@ ul li:hover .dropdown-content {
     color: rgb(59, 174, 209);
 }
 
-
+/* Responsive styles */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -205,7 +205,7 @@ ul li:hover .dropdown-content {
 
     .icons a {
         display: inline-block;
-        margin: 0 10px;
+        margin: 0 50px;
     }
 }
 
@@ -216,7 +216,6 @@ ul li:hover .dropdown-content {
 
     .image {
         width: 100%;
-        position: relative; 
     }
 
     .image img {
@@ -227,13 +226,10 @@ ul li:hover .dropdown-content {
     .icons {
         text-align: center;
         margin-top: 20px;
-        position: absolute; 
-        top: 10px; 
-        width: 100%;
     }
 
     .icons a {
         display: inline-block;
-        margin: 0 10px;
+        margin: 0 50px;
     }
 }
