@@ -8,7 +8,7 @@
     background: url(pics/grey-texture-background-3tbude3nyrxyh2be.webp);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh; /* Change height to min-height */
     position: relative;
     font-family: sans-serif;
 }
@@ -202,6 +202,11 @@ ul li:hover .dropdown-content {
         text-align: center;
         margin-top: 20px;
     }
+
+    .icons a {
+        display: inline-block;
+        margin: 0 10px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -216,5 +221,10 @@ ul li:hover .dropdown-content {
     .image img {
         width: 100%;
         height: auto;
+    }
+
+    .icons a {
+        display: inline-block;
+        margin: 0 5px;
     }
 }
