@@ -134,6 +134,7 @@ ul li:hover .dropdown-content {
     border-radius: 50%;
     transition: left 2s ease;
 }
+
 .image:hover .boy {
     left: 55%;
 }
@@ -153,4 +154,67 @@ ul li:hover .dropdown-content {
 
 .icons ion-icon:hover {
     color: rgb(59, 174, 209);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .info {
+        text-align: center;
+        padding: 20px;
+        margin-left: 0;
+    }
+
+    .info h1, .info h3 {
+        font-size: 1.5em;
+    }
+
+    .image {
+        width: 80%;
+        height: auto;
+        position: static;
+        margin: 20px auto;
+    }
+
+    .image img {
+        width: 100%;
+        height: auto;
+        position: static;
+        transform: none;
+    }
+
+    .icons {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .info h1, .info h3 {
+        font-size: 1.2em;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image img {
+        width: 100%;
+        height: auto;
+    }
 }
