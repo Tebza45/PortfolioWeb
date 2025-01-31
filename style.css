@@ -8,7 +8,7 @@
     background: url(pics/grey-texture-background-3tbude3nyrxyh2be.webp);
     background-position: center;
     background-size: cover;
-    min-height: 100vh; /* Change height to min-height */
+    min-height: 100vh; 
     position: relative;
     font-family: sans-serif;
 }
@@ -156,7 +156,7 @@ ul li:hover .dropdown-content {
     color: rgb(59, 174, 209);
 }
 
-/* Responsive styles */
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -224,7 +224,7 @@ ul li:hover .dropdown-content {
     }
 
     .icons {
-        text-align: center;
+        text-align: left;
         margin-top: 20px;
     }
 
