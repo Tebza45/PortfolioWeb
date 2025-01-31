@@ -134,11 +134,11 @@ ul li:hover .dropdown-content {
     border-radius: 50%;
     transition: transform 0.5s ease-in-out;
 }
-.img.girl:hover {
+.img.boy:hover {
     transform: scale(1.1);
 }
 
-.image:hover .girl {
+.image:hover .boy {
     left: 55%;
 }
 
