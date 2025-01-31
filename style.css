@@ -216,6 +216,7 @@ ul li:hover .dropdown-content {
 
     .image {
         width: 100%;
+        position: relative; 
     }
 
     .image img {
@@ -224,12 +225,15 @@ ul li:hover .dropdown-content {
     }
 
     .icons {
-        text-align: left;
+        text-align: center;
         margin-top: 20px;
+        position: absolute; 
+        top: 10px; 
+        width: 100%;
     }
 
     .icons a {
         display: inline-block;
-        margin: 0 20px;
+        margin: 0 10px;
     }
 }
