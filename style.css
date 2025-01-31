@@ -146,7 +146,7 @@ ul li:hover .dropdown-content {
 
 .icons ion-icon {
     margin-left: 7%;
-    color: #000;
+    color: white;
     margin-right: -60px;
     font-size: 40px;
     transition: .4s ease;
